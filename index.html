@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ABC test</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="overlay">
+			<div class="header__logo">
+				<a class="logo-item" href="/"><img src="./img/logo.png" alt="logo"></a>
+			</div>
+			<nav class="header__nav nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav_link" href="#">Решения</a></li>
+					<li class="nav__item"><a class="nav_link" href="#">Отрасли</a></li>
+					<li class="nav__item"><a class="nav_link" href="#">Поддержка</a></li>
+					<li class="nav__item"><a class="nav_link" href="#">О компании</a></li>
+					<li class="nav__item"><a class="nav_link" href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__interaction interaction">
+				<div class="interaction__phone">
+					+7 (800) 765 43 21
+				</div>
+
+				<a class="interaction__search"><img src="./img/search.png" alt="search"></a>
+
+				<a class='interaction__lang'>En</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="popup popup-form">
+			<div class="popup__body">
+				<h2>Подключить услугу</h2>
+				<form class="popup__form" method="GET">
+					<div class="form__item">
+						<input type="text" class="form__input" name="name" id="name" placeholder="Имя" onfocus="this.placeholder = ''"
+						 onblur="this.placeholder = 'Имя'">
+						<label for="
+						 name">Имя</label>
+					</div>
+					<div class="form__item">
+						<input type="email" class="form__input form__email" name="email" id="email" placeholder="E-mail" onfocus="this.placeholder = ''"
+						 onblur="this.placeholder = 'E-mail'">
+						<label for="email">E-mail</label>
+					</div>
+					<div class="form__item">
+						<input type="phone" class="form__input form__tel" name="tel" id="phone" placeholder="Телефон" onfocus="this.placeholder = ''"
+						 onblur="this.placeholder = 'Телефон'">
+						<label for="phone">Телефон</label>
+					</div>
+					<div class="form__item">
+						<input type="text" class="form__input form__about" name="about" id="about" placeholder="Расскажите о себе"
+						 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Расскажите о себе'">
+						<label for="about">Расскажите о себе</label>
+					</div>
+
+					<div class="form__btns">
+						<a class="btn form__btn">Подключить</a>
+						<p class="form__p">Нажимая кнопку «Подключить», вы
+							соглашаетесь с <a class="b-link_light">Условиями</a>.</p>
+					</div>
+				</form>
+
+				<div class="form__btn_close"></div>
+			</div>
+		</div>
+
+		<section class="top">
+			<div class="overlay">
+				<div class="top__anim">
+					<video autoplay muted loop class="top__video">
+						<source src="./img/video.mp4" type="video/mp4">
+					</video>
+
+
+					<div class="top__offer top__offer_start">
+						<h1>Super. Puper.</h1>
+						<span class="text-kdr">Premium Technologies</span>
+					</div>
+
+					<div class="top__offer top__offer_finish offer">
+						<h1>Используйте лучшее,</h1>
+						<span class="text-kdr">что может предложить платежная индустрия</span>
+						<p class="offer__p">ABC — надежный партнёр в сфере платежей и обработки карточных данных.</p>
+						<a class="btn btn_popup">Начать работу<span class='arrow'></span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="solutions">
+			<div class="overlay">
+				<h2>Решения по отраслям</h2>
+				<div class="solutions__categories">
+					<button class="categories__item border" data-filter='all'><span>Все</span></button>
+					<button class="categories__item" data-filter='bank'><span>Банки</span></button>
+					<button class="categories__item" data-filter='org'><span>Кредитные организации</span></button>
+					<button class="categories__item" data-filter='retail'><span>Интернет-ритейл</span></button>
+					<button class="categories__item" data-filter='fintech'><span>Финтех-компании</span></button>
+				</div>
+				<div class="solutions__tab">
+					<div class="tab__item all retail" data-category="all, retail">
+						<h4>Решение номер 1</h4>
+						<div class="item__text">Принимайте платежи по банковским картам и с помощью альтернативных способов на сайте и в
+							мобильном приложении под своим брендомУмный скоринг и мас способов погашения повысят качество
+							кредитного портфеля.</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all org" data-category="">
+						<h4>Самое прекрасное решение</h4>
+						<div class="item__text">Принимайте платежи по банковским картам и с помощью альтернативных способов на сайте и в
+							мобильном приложении под своим брендомУмный скоринг и мас способов погашения повысят качество
+							кредитного портфеля.</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all retail" data-category="">
+						<h4>Решение 3</h4>
+						<div class="item__text">Контролируйте и управляйте всеми платежными системами и банками из одного окна Повышайте
+							эффективность работы с платежами: увеличивайте конверсию покупок и
+							оптимизируйте расходы. </div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all retail fintech" data-category="">
+						<h4>Решение к отпуску</h4>
+						<div class="item__text">Начните принимать разовые или регулярные платежи с европейских счетов клиентовчерез
+							международную систему SEPA Повышайте эффективность работы с платежами: увеличивайте конверсию покупок
+							иоптимизируйте расходы. </div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all bank retail fintech" data-category="">
+						<h4>Решение 4</h4>
+						<div class="item__text">Принимайте платежи по банковским картам с помощью mPOS и POS терминалов в оффлайновых
+							точкаx продаж и через службы доставки.</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all retail org fintech" data-category="">
+						<h4>Лучшее решение</h4>
+						<div class="item__text">Принимайте платежи по банковским картам и с помощью альтернативных.. способов на
+							сайте и в мобильном приложении под своим брендомУмный скоринг и мас... способов погашения повысят качество
+							кредитного портфеля.</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all bank org" data-category="">
+						<h4>Решение 5</h4>
+						<div class="item__text">Запустите сервис денежных переводов под собственным брендом. Решение работает через...
+							сайт и мобильное приложение.способов на
+							сайте и в мобильном приложении под своим брендомУмный скоринг и мас способов погашения повысят качество
+							кредитного портфеля.</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all bank fintech" data-category="">
+						<h4>Наше решение</h4>
+						<div class="item__text">Организуйте сервис моментальных безопасных денежных переводов
+							наличными на карты любыx... банков мира</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all bank" data-category="">
+						<h4>Решение 5</h4>
+						<div class="item__text">Организуйте сервис моментальных безопасных денежных переводов
+							наличными</div>
+						<span class="arrow"></span>
+					</div>
+					<div class="tab__item all retail" data-category="">
+						<h4>Мобильное решение</h4>
+						<div class="item__text">Организуйте сервис моментальных безопасных денежных переводов
+							наличными</div>
+						<span class="arrow"></span>
+					</div>
+
+				</div>
+
+				<div class="solutions__decisons">
+					<div class="decisons__text">Все решения реализуются в формате <br> White label — партнерского сотрудничества.</div>
+				</div>
+			</div>
+		</section>
+		<section class="payments">
+			<div class="overlay">
+				<h2>Технологическое преимущество и гибкость — основа для роста бизнеса</h2>
+				<div class="features">
+					<div class="features__item">
+						<div class="features__img">
+							<img src="./img/start.png" alt="romb">
+						</div>
+						<div class="features__head">
+							<h3>Быстрый старт</h3>
+							<span class="features__head_thin">и кастомизация</span>
+						</div>
+
+						<div class="features__p">Быстрый вывод решения на рынок под вашим собственным брендом.</div>
+
+					</div>
+					<div class="features__item">
+						<div class="features__img">
+							<img src="./img/integration.png" alt="oval">
+						</div>
+						<div class="features__head">
+							<h3>Готовые</h3>
+							<span class="features__head_thin">интеграции</span>
+						</div>
+
+						<div class="features__p">В нашей системе доступно 300 интеграций с платежными системами, банками и CMS по
+							всему миру.</div>
+
+					</div>
+					<div class="features__item">
+						<div class="features__img">
+							<img src="./img/pay.png" alt="pay">
+						</div>
+						<div class="features__head">
+							<h3>Актуальные</h3>
+							<span class="features__head_thin">технологии</span>
+						</div>
+
+						<div class="features__p">Apple pay, Google pay,
+							AFT, рекуррентные платежи, e-commerce, POS и mPOS, Master Card Money Send, Visa Direct и другие.</div>
+
+					</div>
+					<div class="features__item">
+						<div class="features__img">
+							<img src="./img/discuss-issue.png" alt="romb">
+						</div>
+						<div class="features__head">
+							<h3>Профессиональная</h3>
+							<span class="features__head_thin">поддержка</span>
+						</div>
+
+						<div class="features__p">Профессиональная техподдержка и сопровождение клиента во время интеграции и после
+							запуска.</div>
+
+					</div>
+				</div>
+
+				<div class="how-work">
+					<div class="how-work__text">
+						<h2>Как это работает</h2>
+						<ul class="how-work-list">
+							<li class="how-work__item">
+								<span class="how-work__item_num">1</span>
+								<span class="how-work__item_text">Вы звоните заёмщику и договариваетесь о размере платежа по займу.</span>
+							</li>
+							<li class="how-work__item">
+								<span class="how-work__item_num">2</span>
+								<span class="how-work__item_text">Заёмщик переводит телефон в тоновый режим и вводит номер банковской карты.</span>
+							</li>
+							<li class="how-work__item">
+								<span class="how-work__item_num">3</span>
+								<span class="how-work__item_text">С карты списываются деньги в счет погашения кредиты.</span>
+							</li>
+							<li class="how-work__item">
+								<span class="how-work__item_num">4</span>
+								<span class="how-work__item_text">Чек по операции автоматически отправляется по электронной почте и по СМС.</span>
+							</li>
+							<li class="how-work__item">
+								<span class="how-work__item_text how-work__item_text_small">
+									Сервис предоставляется в рамках <a href="#" class="b-link">онлайн-кредитования</a>.
+								</span>
+							</li>
+
+
+						</ul>
+					</div>
+
+					<img class="how-work__img" src="./img/img.png" alt="mokeapp">
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="overlay">
+			<div class="offer">
+				<h1>Свяжитесь с нами,</h1>
+				<span class="text-kdr">чтобы запустить эффективное платежное решение</span>
+				<p class="offer__p">Более 1,5 тысяч клиентов уже доверили свои проекты <strong>ABC Abvgd</strong>.</p>
+				<a class="btn btn_popup">Начать работу<span class='arrow'></span></a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./js/common.js"></script>
+</body>
+
+</html>
